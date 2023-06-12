@@ -8,3 +8,9 @@ menu.addEventListener("click", () => {
   menuBox.classList.toggle("header__menu--open");
   checkbox.checked = !checkbox.checked;
 });
+
+const button = document.querySelector(".price__btn");
+
+button.addEventListener("click", function () {
+  console.log("Button clicked!");
+});

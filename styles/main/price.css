@@ -40,3 +40,17 @@
   color: #cd9b5a;
   font-weight: bold;
 }
+
+.price__btn {
+  background: #cd9b5a;
+  padding: 10px 20px;
+  max-width: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto;
+  color: #000;
+  display: block;
+  line-height: 1.5;
+  border: none;
+  cursor: pointer;
+}
