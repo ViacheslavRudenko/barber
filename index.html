@@ -4,12 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Barber</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="header">
+      <div class="header__section--top">
+        <div class="header__time">
+          <box
+            ><img
+              src="https://res.cloudinary.com/drclxchxp/image/upload/v1683552354/Staffman_finance/Contacts/time_ubmflp.svg"
+              alt="clock"
+          /></box>
+          <p>10:00-19:00 <br />ПН-НД</p>
+        </div>
+
+        <ul class="header__menu">
+          <li>Послуги</li>
+          <li>Барбери</li>
+          <li>Lookbook</li>
+          <li>Контакти</li>
+        </ul>
+
+        <div class="header__logo">
+          <img src="https://ladybarber.com.ua/img/Logo.png" alt="logo" />
+        </div>
+
+        <select class="header__lng" name="cars" id="cars">
+          <option value="uk">UA</option>
+          <option value="ru">RU</option>
+          <option value="en">EN</option>
+        </select>
+
+        <div class="menu">
+          <input class="menu__toggle" id="menu-toggle" type="checkbox" />
+          <label class="menu__button-container" htmlFor="menu-toggle">
+            <div class="menu__button">
+              <span class="menu__line"></span>
+              <span class="menu__line"></span>
+              <span class="menu__line"></span>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="header__section--bottom">
+        <div class="header__media">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/20/20673.png"
+            alt="facebook"
+          />
+          <img
+            src="https://e7.pngegg.com/pngimages/924/793/png-clipart-instagram-logo-computer-icons-facebook-instagram-text-logo-thumbnail.png"
+            alt="instagram"
+          />
+        </div>
+        <div class="header__contacts">
+          <p>+380 67 000 00 00</p>
+          <p>Київ, Оболонь, Проспект Героїв Сталінграду 6, корпус 8</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="main-container"></section>
+    </main>
     <footer></footer>
     <script type="module" src="scripts/main.js"></script>
   </body>
