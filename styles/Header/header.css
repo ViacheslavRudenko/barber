@@ -13,6 +13,7 @@
 .header__menu {
   display: none;
 }
+
 .header__logo img {
   width: 100px;
 }
@@ -57,4 +58,34 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__media {
+    display: none;
+  }
+  .header__menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  .header__logo {
+    display: none;
+  }
+
+  .menu__item--logo a > img {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 968px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+  }
+  .header__section--bottom {
+    background-color: #000;
+    color: #fff;
+    padding-left: 0;
+    flex-wrap: wrap;
+  }
 }
