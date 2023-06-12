@@ -1,0 +1,27 @@
+.contact {
+  text-align: center;
+  line-height: 2;
+  padding: 10px 0;
+}
+.contact__img {
+  width: 30px;
+}
+.footer__map iframe {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__map {
+    flex: 2;
+  }
+  .footer__contacts {
+    flex: 1;
+  }
+}
