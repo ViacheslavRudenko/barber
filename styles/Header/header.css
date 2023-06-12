@@ -1,13 +1,17 @@
 .header {
   position: fixed;
+  background-color: #000;
   top: 0;
   right: 0;
   left: 0;
 }
 
+.header__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 /* Top */
 .header__section--top {
-  background-color: #000;
   color: #fff;
 }
 .header__menu {
@@ -78,7 +82,7 @@
   }
 }
 @media screen and (min-width: 968px) {
-  .header {
+  .header__container {
     display: grid;
     grid-template-columns: 1fr 220px;
   }
