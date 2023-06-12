@@ -1,0 +1,42 @@
+.price {
+  max-width: 900px !important;
+  position: relative;
+}
+
+.price__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 32px 0;
+  text-align: center;
+}
+
+.price__list > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0;
+}
+
+.item__space {
+  border-bottom: 1px dotted #000;
+  flex: 1;
+}
+
+.price__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.price__name {
+  font-weight: 700;
+  line-height: 1.5;
+}
+.price__name > span {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.price__item > p:last-of-type {
+  color: #cd9b5a;
+  font-weight: bold;
+}
