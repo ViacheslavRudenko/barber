@@ -9,12 +9,6 @@
   text-align: center;
 }
 
-.main-container__title {
-  font-size: 32px;
-  font-weight: 700;
-  padding-bottom: 30px;
-}
-
 .main-container__text {
   line-height: 1.2;
 }
