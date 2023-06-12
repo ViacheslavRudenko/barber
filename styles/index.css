@@ -4,6 +4,7 @@
 @import "./Header/burger-menu.css";
 @import "./main/price.css";
 @import "./main/barbers.css";
+@import "./main/lookbook.css";
 
 body {
   font-family: Arial, Helvetica, sans-serif;
