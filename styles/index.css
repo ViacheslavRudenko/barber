@@ -3,6 +3,7 @@
 @import "./main//mainInfo.css";
 @import "./Header/burger-menu.css";
 @import "./main/price.css";
+@import "./main/barbers.css";
 
 body {
   font-family: Arial, Helvetica, sans-serif;

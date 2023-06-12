@@ -1,0 +1,31 @@
+.barbers__list {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  gap: 100px;
+}
+.barber__img > img {
+  width: 100%;
+}
+.barber__name {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.barber__btn {
+  padding: 12px 0px;
+  color: #cd9b5a;
+  text-align: center;
+  border: 1px solid #cd9b5a;
+  text-transform: uppercase;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .barbers__list {
+    grid-template-columns: 300px 300px;
+  }
+}
