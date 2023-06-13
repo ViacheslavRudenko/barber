@@ -7,6 +7,7 @@
   z-index: 5;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .btn-call__bg {
