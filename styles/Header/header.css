@@ -108,6 +108,12 @@ a:hover {
   .menu__item--logo {
     display: block;
   }
+  .header__section--top {
+    padding-left: 0;
+  }
+  .header__section--bottom {
+    padding-right: 0;
+  }
 }
 @media screen and (min-width: 968px) {
   .header__container {
