@@ -9,7 +9,7 @@
 @import "./main/media-fixed.css";
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat Extralight, sans-serif;
 }
 
 .container {
@@ -20,7 +20,8 @@ body {
 }
 
 .title {
-  font-size: 32px;
+  font-family: Montserrat Black;
+  font-size: 24px;
   font-weight: 700;
   padding-bottom: 30px;
   text-align: center;
