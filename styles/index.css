@@ -5,6 +5,7 @@
 @import "./main/price.css";
 @import "./main/barbers.css";
 @import "./main/lookbook.css";
+@import "./main/btn-call.css";
 
 body {
   font-family: Arial, Helvetica, sans-serif;

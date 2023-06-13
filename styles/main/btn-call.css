@@ -1,0 +1,59 @@
+.btn-call {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 100px;
+  height: 100px;
+  z-index: 5;
+  border: none;
+  background: none;
+}
+
+.btn-call__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: rgb(148, 82, 0);
+  color: rgb(148, 82, 0);
+  opacity: 0.8;
+}
+
+.btn-call__text {
+  font-weight: 700;
+  line-height: 2;
+  color: #fff;
+  position: relative;
+}
+
+.btn-call__wave {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-color: rgb(148, 82, 0);
+  color: rgb(148, 82, 0);
+  border: 2px solid;
+  width: 105%;
+  height: 105%;
+  opacity: 0.9;
+  box-sizing: border-box;
+  -webkit-animation: wave-stroke 1.5s infinite cubic-bezier(0.37, 0, 0.8, 0.77);
+  -moz-animation: wave-stroke 1.5s infinite cubic-bezier(0.37, 0, 0.8, 0.77);
+  -o-animation: wave-stroke 1.5s infinite cubic-bezier(0.37, 0, 0.8, 0.77);
+  animation: wave-stroke 1.5s infinite cubic-bezier(0.37, 0, 0.8, 0.77);
+}
+@keyframes wave-stroke {
+  0% {
+    width: 105%;
+    height: 105%;
+  }
+
+  100% {
+    width: 155%;
+    height: 155%;
+  }
+}
