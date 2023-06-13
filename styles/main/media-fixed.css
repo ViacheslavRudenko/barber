@@ -1,0 +1,19 @@
+.media-fixed {
+  position: fixed;
+  right: 5px;
+  bottom: 40%;
+  z-index: 5;
+  flex-direction: column;
+  gap: 10px;
+  display: none;
+}
+
+.media-fixed img {
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .media-fixed {
+    display: flex;
+  }
+}
