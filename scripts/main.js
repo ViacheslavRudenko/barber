@@ -11,6 +11,20 @@ menu.addEventListener("click", () => {
 
 const button = document.querySelector(".price__btn");
 
-button.addEventListener("click", function () {
-  console.log("Button clicked!");
+document.addEventListener("DOMContentLoaded", function () {
+  var swiper = new Swiper(".swiper-container", {
+    effect: "cards",
+    loop: true,
+  });
+
+  var nextButton = document.querySelector(".swiper-button-next");
+  var prevButton = document.querySelector(".swiper-button-prev");
+
+  nextButton.addEventListener("click", function () {
+    swiper.slideNext();
+  });
+
+  prevButton.addEventListener("click", function () {
+    swiper.slidePrev();
+  });
 });

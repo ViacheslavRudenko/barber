@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <title>Barber</title>
   </head>
   <body>
@@ -230,11 +234,37 @@
           </li>
         </ul>
       </section>
+      <!-- Look book -->
       <section class="lookbook">
         <h2 class="title lookbook__title">Look book</h2>
-        <div></div>
+
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="https://ladybarber.com.ua/img/slider/3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://ladybarber.com.ua/img/slider/1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://ladybarber.com.ua/img/slider/3.jpg" alt="" />
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="container footer" id="contacts">
       <h2 class="title">НАШІ КОНТАКТИ</h2>
       <div class="footer__content">
@@ -314,6 +344,7 @@
         />
       </button>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script type="module" src="scripts/main.js"></script>
   </body>

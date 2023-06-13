@@ -7,6 +7,7 @@
 @import "./main/lookbook.css";
 @import "./main/btn-call.css";
 @import "./main/media-fixed.css";
+@import "./main/swiper.css";
 
 body {
   font-family: Montserrat Extralight, sans-serif;
