@@ -1,7 +1,10 @@
+const header = document.querySelector("header");
+const headerHeight = header.offsetHeight;
+
 export const smoothScroll = (target) => {
   const startPosition = window.scrollY;
   const targetPosition = target.offsetTop;
-  const distance = targetPosition - startPosition - 120;
+  const distance = targetPosition - startPosition - headerHeight;
   const duration = 800;
   let startTime = null;
 
