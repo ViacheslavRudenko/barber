@@ -113,14 +113,16 @@ a:hover {
   .menu__item--logo {
     display: block;
   }
-  .header__section--top {
-    padding-left: 0;
-  }
+
   .header__section--bottom {
     padding-right: 0;
   }
 }
 @media screen and (min-width: 968px) {
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .header__container {
     display: grid;
     grid-template-columns: 1fr 220px;
@@ -130,5 +132,8 @@ a:hover {
     color: #fff;
     padding-left: 0;
     flex-wrap: wrap;
+  }
+  .header__section--top {
+    padding-left: 0;
   }
 }
