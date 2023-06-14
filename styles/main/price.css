@@ -14,7 +14,9 @@
 .price__list > li {
   display: flex;
   justify-content: space-between;
-  padding: 7px 0;
+  padding-top: 15px;
+  align-items: end;
+  gap: 10px;
 }
 
 .item__space {
