@@ -1,30 +1,12 @@
-const menu = document.querySelector(".menu");
-const menuButton = document.querySelector(".menu__button");
-const checkbox = document.querySelector(".menu__toggle");
-const menuBox = document.querySelector(".header__menu");
+import { menu, toggleMenu } from "./Header/burgerMenu.js";
+import { smoothScroll } from "./Header/scrollToSection.js";
+import { initializeSwiper } from "./Main/swiper.js";
 
-menu.addEventListener("click", () => {
-  menuButton.classList.toggle("open");
-  menuBox.classList.toggle("header__menu--open");
-  checkbox.checked = !checkbox.checked;
-});
+//Action of scrolling to section when click on header menu
+smoothScroll();
 
-const button = document.querySelector(".price__btn");
+//Open burger menu
+menu.addEventListener("click", toggleMenu);
 
-document.addEventListener("DOMContentLoaded", function () {
-  var swiper = new Swiper(".swiper-container", {
-    effect: "cards",
-    loop: true,
-  });
-
-  var nextButton = document.querySelector(".swiper-button-next");
-  var prevButton = document.querySelector(".swiper-button-prev");
-
-  nextButton.addEventListener("click", function () {
-    swiper.slideNext();
-  });
-
-  prevButton.addEventListener("click", function () {
-    swiper.slidePrev();
-  });
-});
+//Swiper
+initializeSwiper();
