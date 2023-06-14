@@ -3,7 +3,17 @@ import { smoothScroll } from "./Header/scrollToSection.js";
 import { initializeSwiper } from "./Main/swiper.js";
 
 //Action of scrolling to section when click on header menu
-smoothScroll();
+export const links = document.querySelectorAll("a[data-target]");
+
+links.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    toggleMenu();
+    e.preventDefault();
+    const targetId = this.getAttribute("data-target");
+    const targetElement = document.getElementById(targetId);
+    smoothScroll(targetElement);
+  });
+});
 
 //Open burger menu
 menu.addEventListener("click", toggleMenu);

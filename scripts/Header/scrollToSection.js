@@ -26,14 +26,3 @@ export const smoothScroll = (target) => {
 
   requestAnimationFrame(animation);
 };
-
-export const links = document.querySelectorAll("a[data-target]");
-
-links.forEach(function (link) {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-    const targetId = this.getAttribute("data-target");
-    const targetElement = document.getElementById(targetId);
-    smoothScroll(targetElement);
-  });
-});
