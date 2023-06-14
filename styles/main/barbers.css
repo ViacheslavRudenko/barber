@@ -22,6 +22,7 @@
   border: 1px solid #cd9b5a;
   text-transform: uppercase;
   display: block;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
