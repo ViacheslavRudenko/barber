@@ -6,10 +6,15 @@
 .contact__img {
   width: 30px;
 }
+.footer__map {
+  width: 100%;
+  box-sizing: border-box;
+}
 .footer__map iframe {
   width: 100%;
   height: auto;
   min-height: 400px;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
