@@ -2,6 +2,7 @@
   position: absolute;
   height: fit-content;
   position: relative;
+  margin: 0 auto;
 }
 
 .swiper-wrapper {
@@ -16,7 +17,7 @@
   padding: 20px;
   font-size: 20px;
   text-align: center;
-  /* max-width: 80%; */
+  max-width: 75%;
 }
 
 .swiper-slide img {
@@ -25,9 +26,15 @@
 }
 
 .swiper-pagination .swiper-pagination-bullet {
-  background-color: #fff; /* Replace with your desired color */
+  background-color: #fff;
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: rgb(148, 82, 0);
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-slide {
+    max-width: 100%;
+  }
 }
