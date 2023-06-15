@@ -1,5 +1,7 @@
 .main-container {
-  background: url("https://ladybarber.com.ua/img/bgg.png") no-repeat;
+  background: url("https://ladybarber.com.ua/img/bgg.png") no-repeat center
+    center/cover;
+
   height: 100vh;
   display: flex;
   flex-direction: column;
