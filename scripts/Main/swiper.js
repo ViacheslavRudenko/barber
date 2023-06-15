@@ -2,6 +2,14 @@ export const initializeSwiper = () => {
   const swiper = new Swiper(".swiper-container", {
     effect: "cards",
     loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
   });
 
   const nextButton = document.querySelector(".swiper-button-next");
