@@ -1,13 +1,13 @@
 @import "./Header/header.css";
 @import "./footer.css";
-@import "./main//mainInfo.css";
+@import "./main//main-info.css";
 @import "./Header/burger-menu.css";
-@import "./main/price.css";
-@import "./main/barbers.css";
-@import "./main/lookbook.css";
-@import "./main/btn-call.css";
-@import "./main/media-fixed.css";
-@import "./main/swiper.css";
+@import "./Main/price.css";
+@import "./Main/barbers.css";
+@import "./Main/lookbook.css";
+@import "./Main/btn-call.css";
+@import "./Main/media-fixed.css";
+@import "./Main/swiper.css";
 
 body {
   font-family: Montserrat Extralight, sans-serif;
