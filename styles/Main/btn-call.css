@@ -42,7 +42,7 @@
   width: 105%;
   height: 105%;
   opacity: 0.9;
-  box-sizing: border-box;
+
   -webkit-animation: wave-stroke 1.5s infinite cubic-bezier(0.37, 0, 0.8, 0.77);
   -moz-animation: wave-stroke 1.5s infinite cubic-bezier(0.37, 0, 0.8, 0.77);
   -o-animation: wave-stroke 1.5s infinite cubic-bezier(0.37, 0, 0.8, 0.77);
