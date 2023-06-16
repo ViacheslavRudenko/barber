@@ -15,75 +15,62 @@
   <body>
     <header class="header">
       <div class="header__container">
-        <div class="header__section--top">
-          <!-- Header time -->
-          <div class="header__time">
-            <box
-              ><img
-                src="https://res.cloudinary.com/drclxchxp/image/upload/v1683552354/Staffman_finance/Contacts/time_ubmflp.svg"
-                alt="clock"
-            /></box>
-            <p>10:00-19:00 <br />ПН-НД</p>
-          </div>
-          <!-- Header menu -->
-          <ul class="header__menu">
-            <li><a data-target="price">Послуги</a></li>
-            <li><a data-target="staff">Барбери</a></li>
-            <li class="menu__item--logo">
-              <a href="#">
-                <img src="https://ladybarber.com.ua/img/Logo.png" alt="logo"
-              /></a>
-            </li>
-            <li><a data-target="lookbook">Lookbook</a></li>
-            <li><a data-target="contacts">Контакти</a></li>
-          </ul>
-          <!-- Header logo-->
-          <div class="header__logo">
-            <img src="https://ladybarber.com.ua/img/Logo.png" alt="logo" />
-          </div>
-          <!-- Header language -->
+        <!-- Header time -->
+        <div class="header__time">
+          <box
+            ><img
+              src="https://res.cloudinary.com/drclxchxp/image/upload/v1683552354/Staffman_finance/Contacts/time_ubmflp.svg"
+              alt="clock"
+          /></box>
+          <p>10:00-19:00 <br />ПН-НД</p>
+        </div>
+        <!-- Header menu -->
+        <ul class="header__menu">
+          <li><a data-target="price">Послуги</a></li>
+          <li><a data-target="staff">Барбери</a></li>
+          <li class="menu__item--logo">
+            <a href="#">
+              <img src="https://ladybarber.com.ua/img/Logo.png" alt="logo"
+            /></a>
+          </li>
+          <li><a data-target="lookbook">Lookbook</a></li>
+          <li><a data-target="contacts">Контакти</a></li>
+        </ul>
+        <!-- Header logo-->
+        <div class="header__logo">
+          <img src="https://ladybarber.com.ua/img/Logo.png" alt="logo" />
+        </div>
+
+        <!-- Header burger menu -->
+        <div class="menu">
+          <input class="menu__toggle" id="menu-toggle" type="checkbox" />
+          <label class="menu__button-container" htmlFor="menu-toggle">
+            <div class="menu__button">
+              <span class="menu__line"></span>
+              <span class="menu__line"></span>
+              <span class="menu__line"></span>
+            </div>
+          </label>
+        </div>
+
+        <div class="header__contacts">
           <select class="header__lng" name="cars" id="cars">
             <option value="uk">UA</option>
             <option value="ru">RU</option>
             <option value="en">EN</option>
           </select>
-          <!-- Header burger menu -->
-          <div class="menu">
-            <input class="menu__toggle" id="menu-toggle" type="checkbox" />
-            <label class="menu__button-container" htmlFor="menu-toggle">
-              <div class="menu__button">
-                <span class="menu__line"></span>
-                <span class="menu__line"></span>
-                <span class="menu__line"></span>
-              </div>
-            </label>
-          </div>
-        </div>
-        <div class="header__section--bottom">
-          <!-- Header media -->
-          <div class="header__media">
-            <button class="media__btn facebook">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/20/20673.png"
-                alt="facebook"
-              />
-            </button>
-            <button class="media__btn instagram">
-              <img
-                src="https://e7.pngegg.com/pngimages/924/793/png-clipart-instagram-logo-computer-icons-facebook-instagram-text-logo-thumbnail.png"
-                alt="instagram"
-              />
-            </button>
-          </div>
-          <!-- Header contacts -->
-          <div class="header__contacts">
-            <p><a href="tel:+380670000000">+380 67 000 00 00</a></p>
-            <p>
-              <a href="https://www.google.com/maps"
-                >Київ, Оболонь, Проспект Героїв Сталінграду 6, корпус 8</a
-              >
-            </p>
-          </div>
+          <a href="tel:+380676666666" class="link"
+            ><img
+              src="https://icon-library.com/images/phone-icon-white/phone-icon-white-5.jpg"
+              alt="phone"
+          /></a>
+          <a
+            href="https://www.google.com/maps/@50.4113659,30.5113545,14z?entry=ttu"
+            class="link"
+            ><img
+              src="https://res.cloudinary.com/drclxchxp/image/upload/v1683552354/Staffman_finance/Contacts/location_dka6mt.svg"
+              alt="phone"
+          /></a>
         </div>
       </div>
     </header>
