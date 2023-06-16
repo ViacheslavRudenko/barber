@@ -70,7 +70,9 @@ a:hover {
   justify-content: center;
   justify-items: center;
   align-items: center;
+  padding-bottom: 250px;
 }
+
 .header__menu > .header__contacts {
   display: flex;
   justify-content: center;
