@@ -63,19 +63,25 @@ a:hover {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 0;
   height: calc(100vh - 126px);
   top: 126px;
   background: #000;
   display: grid;
   justify-content: center;
-  padding: 50px 0 150px;
+  justify-items: center;
+  align-items: center;
 }
+.header__menu > .header__contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-direction: row;
+}
+
 .menu__item--logo {
   display: none;
 }
-
-/* common */
 
 .header__contacts {
   flex: 1;
